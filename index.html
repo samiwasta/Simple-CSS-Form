@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Registration Form</title>
+    <link rel="stylesheet" href="form_style.css" </head>
+
+<body>
+<h1>WELCOME TO HOTEL TAJ MAHAL, MUMBAI</h1>
+<div class="container">
+    <div class="bookingForm">
+
+        <fieldset>
+        <legend>Personal Details</legend>
+        <label>First Name:</label>
+            <input type="text" class="input" name="firstName" placeholder="e.g. Jhon">
+            <label>Last Name:</label>
+            <input type="text" class="input" name="lastName" placeholder="e.g. Doe">
+            <label>Email ID:</label>
+            <input type="email" class="input" name="email" placeholder="someone@gmail.com">
+            <label>Contact no:</label>
+            <input type="tel" class="input" name="contact" placeholder="1234567890">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="transgender">Transgender
+        </fieldset>
+
+        <fieldset>
+        <legend>About Guests</legend>
+        <div>
+        <label for="guests" class=></label>Number of Guests:</label>
+        <select name="guests" class="input">
+            <option value="0">Self</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select>
+        </div>
+        <label>First Name:</label>
+            <input type="text" class="input" name="guestFirstName1" placeholder="First Name">
+            <label>Last Name:</label>
+            <input type="text" class="input" name="guestLastName1" placeholder="Last Name">
+
+            <label>First Name:</label>
+            <input type="text" class="input" name="guestFirstName2" placeholder="First Name">
+            <label>Last Name:</label>
+            <input type="text" class="input" name="guestLastName2" placeholder="Last Name">
+
+            <label>First Name:</label>
+            <input type="text" class="input" name="guestFirstName3" placeholder="First Name">
+            <label>Last Name:</label>
+            <input type="text" class="input" name="guestLastName3" placeholder="Last Name">
+
+            <label>First Name:</label>
+            <input type="text" class="input" name="guestFirstName4" placeholder="First Name">
+            <label>Last Name:</label>
+            <input type="text" class="input" name="guestFirstName4" placeholder="Last Name">
+        </fieldset>
+
+        <fieldset>
+            <legend>Check In/Check Out</legend>
+            <label>Check In:</label>
+            <input type="date" class="input" name="checkIn">
+            <label>Check Out:</label>
+            <input type="date" class="input" name="checkOut">
+        </fieldset>
+
+        <fieldset>
+            <legend>Which Services You Need From Us?</legend>
+            <div>
+                <input type="checkbox" name="pickUp" value="pickUp">Pick up
+            </div>
+            <div>
+                <input type="checkbox" name="privateCar" value="privateCar">Private Car
+            </div>
+            <div>
+                <input type="checkbox" name="babyCare" value="babyCare">Baby Care
+            </div>
+            <div>
+                <input type="checkbox" name="VIP" value="VIP">VIP Service
+            </div>
+            </fieldset>
+        </div>
+        <button class="btnSub" type="submit" value="submit">SUBMIT</button>
+        <button class="btnRes" type="reset" value="reset">RESET</button>    
+    </div>
+</body>
+
+</html>
